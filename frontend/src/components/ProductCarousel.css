@@ -1,0 +1,27 @@
+.trending-pets-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff; /* Dark gray for a sleek look */
+  margin-left: 1rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #ffffff; /* Accent line under heading */
+}
+
+.caraCover
+{
+  margin-left: 100px;
+}
+
+.carousel-image {
+  border-radius: 8px; /* Slightly round the image edges */
+  transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+  height: 35vw;
+  width: 50vw;
+
+  margin-left: 12vw;
+}
+
+.carousel-image:hover {
+  transform: scale(1.05); /* Zoom effect */
+}
+

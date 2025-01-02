@@ -1,0 +1,14 @@
+/* Fixed size for the product card */
+.product-card {
+    width: 18rem; /* Fixed width for consistency */
+    height: 400px; /* Adjust based on your layout */
+    overflow: hidden; /* Hide any excess content */
+  }
+  
+  /* Fixed size for images, ensuring uniform appearance */
+  .product-image {
+    width: 100%;
+    height: 230px; /* Fixed height for consistency */
+    object-fit: cover; /* Crop image to fill the space */
+  }
+  
